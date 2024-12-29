@@ -28,7 +28,7 @@ EXTENSIONS=(
     "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
     "https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP"
     "https://github.com/alemelis/sd-webui-ar"
-    # "https://github.com/DenOfEquity/forgeFlux_dualPrompt"
+    "https://github.com/DenOfEquity/forgeFlux_dualPrompt"
 )
 
 CHECKPOINT_MODELS=(
