@@ -28,7 +28,7 @@ EXTENSIONS=(
     "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
     "https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP"
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
-    "https://github.com/DenOfEquity/forgeFlux_dualPrompt"
+    # "https://github.com/DenOfEquity/forgeFlux_dualPrompt"
 )
 
 CHECKPOINT_MODELS=(
@@ -36,7 +36,8 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    "https://huggingface.co/rimOPS/noobBased/resolve/main/noobaiXLNAIXL_vPred10Version.safetensors"
+    # "https://huggingface.co/rimOPS/noobBased/resolve/main/noobaiXLNAIXL_vPred10Version.safetensors"
+    "https://huggingface.co/RedRayz/hikari_noob_1.0.0/resolve/main/Hikari_Noob_v-pred_1.0.0.safetensors"
 )
 
 LORA_MODELS=(
@@ -46,7 +47,7 @@ LORA_MODELS=(
 VAE_MODELS=(
     #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+    # "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
