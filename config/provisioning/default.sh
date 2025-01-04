@@ -12,7 +12,7 @@ DISK_GB_REQUIRED=30
 APT_PACKAGES=(
     #"package-1"
     #"package-2"
-    "aria2"
+    # "aria2"
 )
 
 PIP_PACKAGES=(
@@ -26,7 +26,7 @@ EXTENSIONS=(
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
-    "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
+    # "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
     "https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP"
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
