@@ -25,7 +25,6 @@ EXTENSIONS=(
     "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/Haoming02/sd-forge-couple"
-    "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
     "https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP"
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
@@ -105,6 +104,39 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
 )
 
+function extensions_config() {
+    # まず、$WORKSPACE 内に tmp フォルダを作成
+    mkdir -p "${WORKSPACE}/tmp"
+    if [ $? -ne 0 ]; then
+        echo "Failed to create tmp directory"
+    fi
+
+    # tmp フォルダに移動
+    cd "${WORKSPACE}/tmp"
+    if [ $? -ne 0 ]; then
+        echo "Failed to change directory to tmp"
+    fi
+
+    # リポジトリをクローン
+    git clone "https://${GITHUB_TOKEN}@github.com/osuiso-depot/MySDWEBUI_config_private.git"
+    if [ $? -ne 0 ]; then
+        echo "Failed to clone repository"
+    fi
+
+    # クローンしたリポジトリがある場所に移動
+    cd "${WORKSPACE}/tmp/MySDWEBUI_config_private"
+    if [ $? -ne 0 ]; then
+        echo "Failed to change directory to cloned repository"
+    fi
+
+    # wildcards フォルダを目的のディレクトリに移動
+    mv "wildcards" "${WORKSPACE}/stable-diffusion-webui-forge/extensions/sd-dynamic-prompts/"
+    if [ $? -ne 0 ]; then
+        echo "Failed to move wildcards directory"
+    fi
+}
+
+
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
@@ -138,6 +170,8 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/stable-diffusion-webui-forge/models/ESRGAN" \
         "${ESRGAN_MODELS[@]}"
+
+    extensions_config
 
     PLATFORM_ARGS=""
     if [[ $XPU_TARGET = "CPU" ]]; then
