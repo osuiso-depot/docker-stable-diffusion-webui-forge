@@ -40,37 +40,37 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     # "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     # "https://huggingface.co/rimOPS/noobBased/resolve/main/noobaiXLNAIXL_vPred10Version.safetensors"
-    "https://huggingface.co/RedRayz/hikari_noob_1.0.0/resolve/main/Hikari_Noob_v-pred_1.0.0.safetensors"
+    # "https://huggingface.co/RedRayz/hikari_noob_1.0.0/resolve/main/Hikari_Noob_v-pred_1.0.0.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
 )
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     # noob vpred
-    "https://civitai.com/api/download/models/1152003?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1152003"
     # Illustrious
     # 体操服
-    "https://civitai.com/api/download/models/1179697?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1179697"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # Silhouette Sex Pony
     "https://civitai.com/api/download/models/929173"
     # Ugly Fat Man
-    "https://civitai.com/api/download/models/1122234?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1122234"
     # Side Sex from Back
-    "https://civitai.com/api/download/models/1055765?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1055765"
     # 砧(きぬた) まんぐりSEX
-    "https://civitai.com/api/download/models/1183504?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1183504"
     # だいしゅきホールド
-    "https://civitai.com/api/download/models/1166885?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1166885"
     # doggy style kissing
-    "https://civitai.com/api/download/models/1204356?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1204356"
     # 乳首舐めスパイダー騎乗位(NoobAI-XL V-Pread 1.0)
-    "https://civitai.com/api/download/models/1208616?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1208616"
     # missionary position 吊り橋(腰持ち上げ)
-    "https://civitai.com/api/download/models/1202648?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
-    "https://civitai.com/api/download/models/1197206?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1197206"
 )
 
 VAE_MODELS=(
@@ -129,19 +129,19 @@ function provisioning_start() {
     provisioning_get_pip_packages
     provisioning_get_extensions
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
+        "${WORKSPACE}/stable-diffusion-webui-forge/models/Stable-diffusion/" \
         "${CHECKPOINT_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/lora" \
+        "${WORKSPACE}/stable-diffusion-webui-forge/models/Lora" \
         "${LORA_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/controlnet" \
+        "${WORKSPACE}/stable-diffusion-webui-forge/models/ControlNet" \
         "${CONTROLNET_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/vae" \
+        "${WORKSPACE}/stable-diffusion-webui-forge/models/VAE" \
         "${VAE_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
+        "${WORKSPACE}/stable-diffusion-webui-forge/models/ESRGAN" \
         "${ESRGAN_MODELS[@]}"
 
     PLATFORM_ARGS=""
@@ -232,7 +232,7 @@ function provisioning_download() {
     if [[ -n $HF_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?huggingface\.co(/|$|\?) ]]; then
         auth_token="$HF_TOKEN"
     elif
-        [[ -n $CIVITAI_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|$|\?) ]]; then
+        [[ -n $CIVITAI_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|/api/download/models/|$|\?) ]]; then
         auth_token="$CIVITAI_TOKEN"
     fi
     if [[ -n $auth_token ]];then
