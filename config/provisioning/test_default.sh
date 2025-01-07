@@ -40,12 +40,15 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
-    #"https://civitai.com/api/download/models/16576"
-    # noob vpred
-    "https://civitai.com/api/download/models/1152003"
     # Illustrious
+    # セーラー服
+    "https://civitai.com/api/download/models/1222575"
     # 体操服
     "https://civitai.com/api/download/models/1179697"
+    # Retro Gym Shorts
+    "https://civitai.com/api/download/models/1166221"
+    # スク水
+    "https://civitai.com/api/download/models/1191090"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # Silhouette Sex Pony
