@@ -29,6 +29,7 @@ EXTENSIONS=(
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
+    "https://github.com/wkpark/uddetailer"
 )
 
 CHECKPOINT_MODELS=(
@@ -104,6 +105,10 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
 )
 
+function base_config(){
+
+}
+
 function extensions_config() {
     # まず、$WORKSPACE 内に tmp フォルダを作成
     mkdir -p "${WORKSPACE}/tmp"
@@ -154,6 +159,7 @@ function provisioning_start() {
     provisioning_print_header
     provisioning_get_apt_packages
     provisioning_get_pip_packages
+    base_config
     provisioning_get_extensions
     provisioning_get_models \
         "${WORKSPACE}/stable-diffusion-webui-forge/models/Stable-diffusion/" \
@@ -258,17 +264,27 @@ function provisioning_print_end() {
 
 # Download from $1 URL to $2 file path
 function provisioning_download() {
-    if [[ -n $HF_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?huggingface\.co(/|$|\?) ]]; then
+    # 認証トークンを選択
+    if [[ $1 =~ ^https://([a-zA-Z0-9_-]+\.)?huggingface\.co(/|$|\?) ]]; then
         auth_token="$HF_TOKEN"
-    elif
-        [[ -n $CIVITAI_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|/api/download/models/|$|\?) ]]; then
+        if [[ -n $auth_token ]]; then
+            echo "Downloading with token..."
+            wget --header="Authorization: Bearer $auth_token" --content-disposition --show-progress -q -P "$2" "$1"
+        else
+            echo "Downloading without token..."
+            wget --content-disposition --show-progress -q -P "$2" "$1"
+        fi
+    elif [[ $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|/api/download/models/|$|\?) ]]; then
         auth_token="$CIVITAI_TOKEN"
+        if [[ -n $auth_token ]]; then
+            echo "Downloading with token..."
+            wget "$1?token=$auth_token" --content-disposition --show-progress -q -P "$2"
+        else
+            echo "Downloading without token..."
+            wget "$1" --content-disposition --show-progress -q -P "$2"
+        fi
     fi
-    if [[ -n $auth_token ]];then
-        wget --header="Authorization: Bearer $auth_token" -qnc --content-disposition --show-progress -P "$2" "$1"
-    else
-        wget -qnc --content-disposition --show-progress -P "$2" "$1"
-    fi
+
 }
 
 provisioning_start

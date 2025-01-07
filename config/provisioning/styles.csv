@@ -1,0 +1,19 @@
+﻿name,prompt,negative_prompt
+rafu_style,"(tenchisouha:0.81), (mx2j:0.43), (null_\(nyanpyoun\):0.729), (hori_\(hori_no_su\):0.1),
+1girl, hetero, from side, breast focus,
+1girl, bob cut, black hair, bangs, sidelocks, looking at viewer, expressionless, 
+purple eyes, narrowed eyes, shaded face, 
+topless, large breasts, shiny skin, large areolae, puffy nipples, dark areolae,
+breast smother, head hug,
+faceless male, tall female, 1boy, 
+hotel room, love hotel, dynamic angle, atmospheric perspective, detailed background, 4k, 8k, Ultra HD,,
+nsfw, explicit, questionable, (masterpiece:1.2), (best quality:1.2), (very aesthetic:1.2), (absurdres:1.2), newest","short twintails, (bad quality, worst quality, worst detail, bad, low quality, bad anatomy:1.2), (6 fingers, 4 fingers bad hands, bad feet, bad hand, bad finger, bad fingers, extra finger, extra fingers, split finger, split fingers, extra digits, fused arms, fused hands:1.2),"
+rafu_wildcard_style,"(tenchisouha:0.81), (mx2j:0.43), (null_\(nyanpyoun\):0.729), (hori_\(hori_no_su\):0.1),
+1girl, hetero, __view__, breast focus,
+1girl, __hair_color__, __hair_style__, looking at viewer, expressionless, 
+purple eyes, narrowed eyes, shaded face, 
+topless, large breasts, shiny skin, large areolae, puffy nipples, dark areolae,
+breast smother, head hug,
+faceless male, tall female, 1boy, 
+hotel room, love hotel, dynamic angle, atmospheric perspective, detailed background, 4k, 8k, Ultra HD,,
+nsfw, explicit, questionable, (masterpiece:1.2), (best quality:1.2), (very aesthetic:1.2), (absurdres:1.2), newest","short twintails, (bad quality, worst quality, worst detail, bad, low quality, bad anatomy:1.2), (6 fingers, 4 fingers bad hands, bad feet, bad hand, bad finger, bad fingers, extra finger, extra fingers, split finger, split fingers, extra digits, fused arms, fused hands:1.2),"
