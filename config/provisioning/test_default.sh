@@ -22,7 +22,7 @@ PIP_PACKAGES=(
 EXTENSIONS=(
     # "https://github.com/deforum-art/sd-webui-deforum"
     "https://github.com/adieyal/sd-dynamic-prompts"
-    # "https://github.com/ototadana/sd-face-editor"
+    "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/Haoming02/sd-forge-couple"
     "https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP"
