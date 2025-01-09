@@ -27,7 +27,7 @@
     "ch_always_display": false,
     "ch_max_size_preview": true,
     "ch_download_examples": false,
-    "ch_nsfw_threshold": "PG",
+    "ch_nsfw_threshold": "XXX",
     "ch_dl_webui_metadata": true,
     "ch_proxy": "",
     "ch_clean_html": false,
@@ -47,7 +47,10 @@
     "dp_magicprompt_default_model": "Gustavosta/MagicPrompt-Stable-Diffusion",
     "dp_magicprompt_batch_size": 1,
     "face_editor_search_subdirectories": false,
-    "face_editor_additional_components": [],
+    "face_editor_additional_components": [
+        "anime_segmentation",
+        "yolo"
+    ],
     "face_editor_save_original_on_detection_fail": true,
     "face_editor_correct_tilt": false,
     "face_editor_auto_face_size_by_model": false,
@@ -477,5 +480,42 @@
     "deepbooru_sort_alpha": true,
     "deepbooru_use_spaces": true,
     "deepbooru_escape": true,
-    "deepbooru_filter_tags": ""
+    "deepbooru_filter_tags": "",
+    "mudd_max_per_img": 20,
+    "mudd_save_original": false,
+    "mudd_show_original": false,
+    "mudd_save_previews": false,
+    "mudd_save_masks": false,
+    "mudd_import_adetailer": false,
+    "mudd_check_validity": true,
+    "mudd_check_model_validity": false,
+    "mudd_use_mediapipe_preview": false,
+    "mudd_selected_scripts": "dynamic_prompting,forge_dynamic_thresholding,dynamic_thresholding,wildcards,wildcard_recursive,lora_block_weight,cdtuner,negpip",
+    "mudd_use_gender_fix": false,
+    "mudd_male_prompt": "(1 boy:1.2)",
+    "mudd_face_upside_down": false,
+    "mudd_states": {
+        "censored": {},
+        "controlnet": {
+            "model": "None",
+            "module": "None",
+            "weight": 1,
+            "guidance_start": 0,
+            "guidance_end": 1,
+            "control_mode": "Balanced",
+            "resize_mode": "Crop and Resize",
+            "pixel_perfect": false
+        },
+        "extra": {
+            "contrast": 1,
+            "brightness": 1,
+            "sharpness": 1,
+            "saturation": 1,
+            "temperature": 6500,
+            "noise_alpha": 0
+        }
+    },
+    "sd_checkpoint_hash": "6bd54a64b2e08bd6cffd59d5d96105736b3c28d5882e03b69b1ad3b22ef03ed4",
+    "prioritized_callbacks_script_unloaded": [],
+    "prioritized_callbacks_script_postprocess_image": []
 }
