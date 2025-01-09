@@ -68,6 +68,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
     "https://civitai.com/api/download/models/1197206"
+    # Nipple size slider
+    "https://civitai.com/api/download/models/1206518"
+    # Bra embellishments enhancer
+    "https://civitai.com/api/download/models/924494"
 )
 
 VAE_MODELS=(
