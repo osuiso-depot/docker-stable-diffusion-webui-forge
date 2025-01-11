@@ -40,10 +40,20 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
+    # Nipple size slider
+    "https://civitai.com/api/download/models/1206518"
+    # Bra embellishments enhancer
+    "https://civitai.com/api/download/models/924494"
+    # Ugly Fat Man
+    "https://civitai.com/api/download/models/1122234"
+    # Glossy Skin
+    "https://civitai.com/api/download/models/1218639"
     # セーラー服
     "https://civitai.com/api/download/models/1222575"
     # 体操服
     "https://civitai.com/api/download/models/1179697"
+    # Zipper Pull(巨乳に引っかかる)
+    "https://civitai.com/api/download/models/1230125"
     # Retro Gym Shorts
     "https://civitai.com/api/download/models/1166221"
     # スク水
@@ -52,8 +62,6 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1192192"
     # Silhouette Sex Pony
     "https://civitai.com/api/download/models/929173"
-    # Ugly Fat Man
-    "https://civitai.com/api/download/models/1122234"
     # Side Sex from Back
     "https://civitai.com/api/download/models/1055765"
     # 砧(きぬた) まんぐりSEX
@@ -68,10 +76,6 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
     "https://civitai.com/api/download/models/1197206"
-    # Nipple size slider
-    "https://civitai.com/api/download/models/1206518"
-    # Bra embellishments enhancer
-    "https://civitai.com/api/download/models/924494"
 )
 
 VAE_MODELS=(
@@ -148,6 +152,13 @@ function extensions_config() {
     if [ $? -ne 0 ]; then
         echo "Failed to move wildcards directory"
     fi
+
+    # Lora-block-weight プリセットを目的のディレクトリに移動
+    mv "lbwpresets.txt" "${WORKSPACE}/stable-diffusion-webui-forge/extensions/sd-webui-lora-block-weight/"
+    if [ $? -ne 0 ]; then
+        echo "Failed move lbwpresets.txt"
+    fi
+
 }
 
 

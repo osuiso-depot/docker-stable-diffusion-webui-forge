@@ -46,7 +46,7 @@
     "dp_wildcard_manager_shuffle": false,
     "dp_magicprompt_default_model": "Gustavosta/MagicPrompt-Stable-Diffusion",
     "dp_magicprompt_batch_size": 1,
-    "face_editor_search_subdirectories": false,
+    "face_editor_search_subdirectories": true,
     "face_editor_additional_components": [
         "anime_segmentation",
         "yolo"
@@ -303,7 +303,7 @@
     "infotext_styles": "Apply if any",
     "show_progressbar": true,
     "live_previews_enable": true,
-    "live_previews_image_format": "png",
+    "live_previews_image_format": "jpeg",
     "show_progress_grid": true,
     "show_progress_every_n_steps": 10,
     "show_progress_type": "Approx NN",
