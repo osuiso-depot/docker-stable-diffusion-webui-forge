@@ -22,7 +22,7 @@ PIP_PACKAGES=(
 EXTENSIONS=(
     # "https://github.com/deforum-art/sd-webui-deforum"
     "https://github.com/adieyal/sd-dynamic-prompts"
-    "https://github.com/ototadana/sd-face-editor"
+    # "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/Haoming02/sd-forge-couple"
     "https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP"
@@ -154,7 +154,7 @@ function extensions_config() {
     fi
 
     # Lora-block-weight プリセットを目的のディレクトリに移動
-    mv "lbwpresets.txt" "${WORKSPACE}/stable-diffusion-webui-forge/extensions/sd-webui-lora-block-weight/"
+    mv "lbwpresets.txt" "${WORKSPACE}/stable-diffusion-webui-forge/extensions/sd-webui-lora-block-weight/scripts"
     if [ $? -ne 0 ]; then
         echo "Failed move lbwpresets.txt"
     fi
