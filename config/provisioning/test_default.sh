@@ -50,6 +50,12 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1218639"
     # セーラー服
     "https://civitai.com/api/download/models/1222575"
+    # 秀華高校制服
+    "https://civitai.com/api/download/models/990466"
+    # Euphoria(black serafuku)
+    "https://civitai.com/api/download/models/1245821"
+    # Blue Reflection(white serafuku)
+    "https://civitai.com/api/download/models/1195397"
     # 体操服
     "https://civitai.com/api/download/models/1179697"
     # Zipper Pull(巨乳に引っかかる)
@@ -58,8 +64,12 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1166221"
     # スク水
     "https://civitai.com/api/download/models/1191090"
+    # ブラ見せ
+    "https://civitai.com/api/download/models/1130720"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
+    # フェラ素振り
+    "https://civitai.com/api/download/models/1181541"
     # Silhouette Sex Pony
     "https://civitai.com/api/download/models/929173"
     # Side Sex from Back
@@ -76,6 +86,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
     "https://civitai.com/api/download/models/1197206"
+    # shadow-chan
+    "https://civitai.com/api/download/models/1074802"
+    # Cartoon style
+    "https://civitai.com/api/download/models/1118776"
 )
 
 VAE_MODELS=(
