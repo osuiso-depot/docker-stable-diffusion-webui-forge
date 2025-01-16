@@ -49,14 +49,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1122234"
     # Glossy Skin
     "https://civitai.com/api/download/models/1218639"
-    # セーラー服
-    "https://civitai.com/api/download/models/1222575"
-    # 秀華高校制服
-    "https://civitai.com/api/download/models/990466"
     # Euphoria(black serafuku)
     "https://civitai.com/api/download/models/1245821"
-    # Blue Reflection(white serafuku)
-    "https://civitai.com/api/download/models/1195397"
     # 体操服
     "https://civitai.com/api/download/models/1179697"
     # Zipper Pull(巨乳に引っかかる)
