@@ -21,6 +21,7 @@ PIP_PACKAGES=(
 
 EXTENSIONS=(
     # "https://github.com/deforum-art/sd-webui-deforum"
+    # "https://github.com/Tok/sd-forge-deforum.git"
     "https://github.com/adieyal/sd-dynamic-prompts"
     # "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
@@ -85,6 +86,9 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1074802"
     # Cartoon style
     "https://civitai.com/api/download/models/1118776"
+    # SD1.5
+    # derum用
+    "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
 )
 
 VAE_MODELS=(
