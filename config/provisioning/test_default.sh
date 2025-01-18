@@ -77,7 +77,7 @@ LORA_MODELS=(
     # doggy style kissing
     "https://civitai.com/api/download/models/1204356"
     # 乳首舐めスパイダー騎乗位(NoobAI-XL V-Pread 1.0)
-    "https://civitai.com/api/download/models/1208616"
+    # "https://civitai.com/api/download/models/1208616"
     # missionary position 吊り橋(腰持ち上げ)
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
@@ -88,7 +88,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1118776"
     # SD1.5
     # derum用
-    "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
+    # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
 )
 
 VAE_MODELS=(
@@ -111,9 +111,9 @@ CONTROLNET_MODELS=(
     # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_openpose_anime_v2.safetensors"
     # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_depth_anime.safetensors"
     # sd15
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
-    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/ip-adapter_sd15_plus.pth"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1e_sd15_tile_fp16.safetensors"
+    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
+    # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/ip-adapter_sd15_plus.pth"
+    # "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1e_sd15_tile_fp16.safetensors"
 )
 
 function base_config(){
@@ -121,6 +121,7 @@ function base_config(){
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/config.json"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/ui-config.json"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/styles.csv"
+    wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/styles_male.csv"
 }
 
 function extensions_config() {
