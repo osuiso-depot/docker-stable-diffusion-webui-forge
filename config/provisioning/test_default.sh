@@ -30,6 +30,7 @@ EXTENSIONS=(
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
+    # "https://github.com/wkpark/uddetailer.git"
 )
 
 CHECKPOINT_MODELS=(
@@ -55,11 +56,11 @@ LORA_MODELS=(
     # 体操服
     "https://civitai.com/api/download/models/1179697"
     # Zipper Pull(巨乳に引っかかる)
-    "https://civitai.com/api/download/models/1230125"
+    # "https://civitai.com/api/download/models/1230125"
     # Retro Gym Shorts
-    "https://civitai.com/api/download/models/1166221"
+    # "https://civitai.com/api/download/models/1166221"
     # スク水
-    "https://civitai.com/api/download/models/1191090"
+    # "https://civitai.com/api/download/models/1191090"
     # ブラ見せ
     "https://civitai.com/api/download/models/1130720"
     # Ohogao SDXL
