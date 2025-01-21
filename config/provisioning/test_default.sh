@@ -51,24 +51,32 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1122234"
     # Glossy Skin
     "https://civitai.com/api/download/models/1218639"
+    # Sagging Breasts
+    "https://civitai.com/api/download/models/927604"
     # Euphoria(black serafuku)
     "https://civitai.com/api/download/models/1245821"
+    # ハルチカ(Shimizu Minami High School Uniform)
+    "https://civitai.com/api/download/models/1084497"
     # 体操服
     "https://civitai.com/api/download/models/1179697"
+    # 逆バニー
+    "https://civitai.com/api/download/models/995354"
     # Zipper Pull(巨乳に引っかかる)
     # "https://civitai.com/api/download/models/1230125"
     # Retro Gym Shorts
     # "https://civitai.com/api/download/models/1166221"
     # スク水
     # "https://civitai.com/api/download/models/1191090"
+    # 腋見せ
+    "https://civitai.com/api/download/models/1103791"
     # ブラ見せ
     "https://civitai.com/api/download/models/1130720"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り
     "https://civitai.com/api/download/models/1181541"
-    # Silhouette Sex Pony
-    "https://civitai.com/api/download/models/929173"
+    # スパイダー騎乗位(Lyco)
+    "https://civitai.com/api/download/models/1211700"
     # Side Sex from Back
     "https://civitai.com/api/download/models/1055765"
     # 砧(きぬた) まんぐりSEX
@@ -77,16 +85,14 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1166885"
     # doggy style kissing
     "https://civitai.com/api/download/models/1204356"
-    # 乳首舐めスパイダー騎乗位(NoobAI-XL V-Pread 1.0)
-    # "https://civitai.com/api/download/models/1208616"
     # missionary position 吊り橋(腰持ち上げ)
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
     "https://civitai.com/api/download/models/1197206"
-    # shadow-chan
-    "https://civitai.com/api/download/models/1074802"
-    # Cartoon style
-    "https://civitai.com/api/download/models/1118776"
+    # jack-O
+    "https://civitai.com/api/download/models/1302043"
+    # Silhouette Sex Pony
+    "https://civitai.com/api/download/models/929173"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
@@ -122,7 +128,7 @@ function base_config(){
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/config.json"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/ui-config.json"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/styles.csv"
-    wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/styles_male.csv"
+    wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/styles_integrated.csv"
 }
 
 function extensions_config() {
