@@ -30,7 +30,7 @@ EXTENSIONS=(
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
-    # "https://github.com/wkpark/uddetailer.git"
+    "https://github.com/Bing-su/adetailer.git"
 )
 
 CHECKPOINT_MODELS=(
@@ -38,7 +38,7 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/rimOPS/noobBased/resolve/main/noobaiXLNAIXL_vPred10Version.safetensors"
     # "https://huggingface.co/RedRayz/hikari_noob_1.0.0/resolve/main/Hikari_Noob_v-pred_1.0.0.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
-    "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
+    # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
 )
 
 LORA_MODELS=(
@@ -69,8 +69,6 @@ LORA_MODELS=(
     # "https://civitai.com/api/download/models/1191090"
     # 腋見せ
     "https://civitai.com/api/download/models/1103791"
-    # ブラ見せ
-    "https://civitai.com/api/download/models/1130720"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り
@@ -83,16 +81,12 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1183504"
     # だいしゅきホールド
     "https://civitai.com/api/download/models/1166885"
-    # doggy style kissing
-    "https://civitai.com/api/download/models/1204356"
     # missionary position 吊り橋(腰持ち上げ)
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
     "https://civitai.com/api/download/models/1197206"
     # jack-O
     "https://civitai.com/api/download/models/1302043"
-    # Silhouette Sex Pony
-    "https://civitai.com/api/download/models/929173"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
