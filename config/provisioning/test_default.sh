@@ -43,8 +43,12 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
-    # Nipple size slider
+    # Nipple size slider(goofy)
     "https://civitai.com/api/download/models/1206518"
+    # Areola size slider()
+    "https://civitai.com/api/download/models/1284363"
+    # Areola size slider(Kojimbomber)
+    "https://civitai.com/api/download/models/1304712"
     # Bra embellishments enhancer
     "https://civitai.com/api/download/models/924494"
     # Ugly Fat Man
@@ -61,13 +65,15 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1179697"
     # 逆バニー
     "https://civitai.com/api/download/models/995354"
+    # スーツ
+    "https://civitai.com/api/download/models/1073195"
     # Zipper Pull(巨乳に引っかかる)
     # "https://civitai.com/api/download/models/1230125"
     # Retro Gym Shorts
     # "https://civitai.com/api/download/models/1166221"
     # スク水
     # "https://civitai.com/api/download/models/1191090"
-    # 腋見せ
+    # 腋見せ(Spread Armpit)
     "https://civitai.com/api/download/models/1103791"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
@@ -81,12 +87,16 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1183504"
     # だいしゅきホールド
     "https://civitai.com/api/download/models/1166885"
+    # 立ち鼎(立ち位＋対面)
+    "https://civitai.com/api/download/models/1241704"
     # missionary position 吊り橋(腰持ち上げ)
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
     "https://civitai.com/api/download/models/1197206"
     # jack-O
     "https://civitai.com/api/download/models/1302043"
+    # nine face chibi
+    "https://civitai.com/api/download/models/1078616"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
