@@ -31,6 +31,7 @@ EXTENSIONS=(
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
     "https://github.com/Bing-su/adetailer.git"
+    "https://github.com/KohakuBlueleaf/z-tipo-extension"
 )
 
 CHECKPOINT_MODELS=(
@@ -49,6 +50,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1284363"
     # Areola size slider(Kojimbomber)
     "https://civitai.com/api/download/models/1304712"
+    # sagging breasts
+    "https://civitai.com/api/download/models/927604"
     # Bra embellishments enhancer
     "https://civitai.com/api/download/models/924494"
     # Ugly Fat Man
@@ -75,6 +78,10 @@ LORA_MODELS=(
     # "https://civitai.com/api/download/models/1191090"
     # 腋見せ(Spread Armpit)
     "https://civitai.com/api/download/models/1103791"
+    # open towel
+    "https://civitai.com/api/download/models/1154680"
+    # Breasts on glass
+    "https://civitai.com/api/download/models/1117075"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り
