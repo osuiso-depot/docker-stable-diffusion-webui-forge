@@ -96,6 +96,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1166885"
     # 立ち鼎(立ち位＋対面)
     "https://civitai.com/api/download/models/1241704"
+    # 背後抱きSEｘ(bell hammer backwards)
+    "https://civitai.com/api/download/models/1192978"
     # missionary position 吊り橋(腰持ち上げ)
     "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
