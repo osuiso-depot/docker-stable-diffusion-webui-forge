@@ -517,5 +517,17 @@
     },
     "sd_checkpoint_hash": "6bd54a64b2e08bd6cffd59d5d96105736b3c28d5882e03b69b1ad3b22ef03ed4",
     "prioritized_callbacks_script_unloaded": [],
-    "prioritized_callbacks_script_postprocess_image": []
+    "prioritized_callbacks_script_postprocess_image": [],
+    "ad_max_models": 4,
+    "ad_extra_models_dir": "",
+    "ad_save_images_dir": "",
+    "ad_save_previews": false,
+    "ad_save_images_before": false,
+    "ad_only_selected_scripts": true,
+    "ad_script_names": "dynamic_prompting,dynamic_thresholding,lora_block_weight,negpip,wildcard_recursive,wildcards",
+    "ad_bbox_sortby": "None",
+    "ad_same_seed_for_each_tab": false,
+    "ad_dynamic_denoise_power": 0,
+    "ad_match_inpaint_bbox_size": "Off",
+    "tipo_no_extra_input": false
 }
