@@ -104,11 +104,15 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1197206"
     # jack-O
     "https://civitai.com/api/download/models/1302043"
+    # 壁尻
+    "https://civitai.com/api/download/models/1226208"
     # nine face chibi
     "https://civitai.com/api/download/models/1078616"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
+    # LCM-Lora
+    # "https://civitai.com/api/download/models/424720"
 )
 
 VAE_MODELS=(
