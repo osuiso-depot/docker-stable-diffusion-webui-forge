@@ -44,6 +44,8 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
+    # 明暗
+    "https://civitai.com/api/download/models/1221116"
     # Nipple size slider(goofy)
     "https://civitai.com/api/download/models/1206518"
     # Areola size slider()
@@ -52,8 +54,6 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1304712"
     # sagging breasts
     "https://civitai.com/api/download/models/927604"
-    # Bra embellishments enhancer
-    "https://civitai.com/api/download/models/924494"
     # Ugly Fat Man
     "https://civitai.com/api/download/models/1122234"
     # Glossy Skin
@@ -70,6 +70,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/995354"
     # スーツ
     "https://civitai.com/api/download/models/1073195"
+    # バレーボールユニフォーム
+    "https://civitai.com/api/download/models/1109993"
     # Zipper Pull(巨乳に引っかかる)
     # "https://civitai.com/api/download/models/1230125"
     # Retro Gym Shorts
