@@ -31,7 +31,7 @@ EXTENSIONS=(
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
     "https://github.com/Bing-su/adetailer.git"
-    "https://github.com/KohakuBlueleaf/z-tipo-extension"
+    "https://github.com/Zyin055/Config-Presets"
 )
 
 CHECKPOINT_MODELS=(
