@@ -31,7 +31,7 @@ EXTENSIONS=(
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
     "https://github.com/Bing-su/adetailer.git"
-    "https://github.com/Zyin055/Config-Presets"
+    # "https://github.com/Zyin055/Config-Presets"
 )
 
 CHECKPOINT_MODELS=(
@@ -110,6 +110,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1226208"
     # nine face chibi
     "https://civitai.com/api/download/models/1078616"
+    # Roxanne
+    "https://civitai.com/api/download/models/1055954"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
@@ -134,7 +136,7 @@ ESRGAN_MODELS=(
 CONTROLNET_MODELS=(
     # SDXL
     "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_canny.safetensors"
-    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_openpose_anime_v2.safetensors"
+    # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_openpose_anime_v2.safetensors"
     # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_depth_anime.safetensors"
     # sd15
     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
