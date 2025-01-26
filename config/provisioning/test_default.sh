@@ -44,7 +44,7 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
-    # 明暗
+    # 明暗(Low Light, Dark, Chiaroscuro)
     "https://civitai.com/api/download/models/1221116"
     # Nipple size slider(goofy)
     "https://civitai.com/api/download/models/1206518"
