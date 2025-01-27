@@ -30,7 +30,8 @@ EXTENSIONS=(
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
-    "https://github.com/Bing-su/adetailer.git"
+    "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete"
+    "https://github.com/Bing-su/adetailer"
     # "https://github.com/Zyin055/Config-Presets"
 )
 
@@ -112,6 +113,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1078616"
     # Roxanne
     "https://civitai.com/api/download/models/1055954"
+    # Ryza
+    "https://civitai.com/api/download/models/1098852"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
