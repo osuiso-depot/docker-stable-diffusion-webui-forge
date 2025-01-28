@@ -41,6 +41,7 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/RedRayz/hikari_noob_1.0.0/resolve/main/Hikari_Noob_v-pred_1.0.0.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
+    "https://huggingface.co/rimOPS/TESTModels/resolve/main/NELLv2_VAE.safetensors"
 )
 
 LORA_MODELS=(
@@ -49,7 +50,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1221116"
     # Nipple size slider(goofy)
     "https://civitai.com/api/download/models/1206518"
-    # Areola size slider()
+    # Areola size slider(goofy)
     "https://civitai.com/api/download/models/1284363"
     # Areola size slider(Kojimbomber)
     "https://civitai.com/api/download/models/1304712"
@@ -66,13 +67,15 @@ LORA_MODELS=(
     # ハルチカ(Shimizu Minami High School Uniform)
     "https://civitai.com/api/download/models/1084497"
     # 体操服
-    "https://civitai.com/api/download/models/1179697"
+    # "https://civitai.com/api/download/models/1179697"
     # 逆バニー
     "https://civitai.com/api/download/models/995354"
     # スーツ
     "https://civitai.com/api/download/models/1073195"
+    # セントルイス衣装(セレブoutfit)
+    "https://civitai.com/api/download/models/1110753"
     # バレーボールユニフォーム
-    "https://civitai.com/api/download/models/1109993"
+    # "https://civitai.com/api/download/models/1109993"
     # Zipper Pull(巨乳に引っかかる)
     # "https://civitai.com/api/download/models/1230125"
     # Retro Gym Shorts
@@ -89,6 +92,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り
     "https://civitai.com/api/download/models/1181541"
+    # ちんこビンタ
+    "https://civitai.com/api/download/models/1221956"
+    # チンポ目隠し
+    "https://civitai.com/api/download/models/1307328"
     # スパイダー騎乗位(Lyco)
     "https://civitai.com/api/download/models/1211700"
     # Side Sex from Back
@@ -120,6 +127,12 @@ LORA_MODELS=(
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
     # LCM-Lora
     # "https://civitai.com/api/download/models/424720"
+    # 穂月かえで
+    "https://civitai.com/api/download/models/244666"
+    # 犬山あおい
+    "https://huggingface.co/rimOPS/latestLora/resolve/main/Character/%E7%8A%AC%E5%B1%B1%E3%81%82%E3%81%8A%E3%81%84/yurucampInuyamaaoi_yurucampInuyamaaoiV1.safetensors"
+    # パイン
+    "https://huggingface.co/rimOPS/latestLora/resolve/main/Character/%E3%83%9C%E3%83%B3%E3%83%90%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%83%91%E3%82%A4%E3%83%B3/pineBombergirl_v10.safetensors"
 )
 
 VAE_MODELS=(
@@ -148,6 +161,9 @@ CONTROLNET_MODELS=(
 )
 
 function base_config(){
+    cd "${WORKSPACE}/stable-diffusion-webui-forge/embeddings"
+    wget -q "https://huggingface.co/rimOPS/embeddings/resolve/main/EasyNegative.pt"
+
     cd "${WORKSPACE}/stable-diffusion-webui-forge/"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/config.json"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/ui-config.json"
