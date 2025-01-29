@@ -41,7 +41,7 @@ CHECKPOINT_MODELS=(
     # "https://huggingface.co/RedRayz/hikari_noob_1.0.0/resolve/main/Hikari_Noob_v-pred_1.0.0.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
-    "https://huggingface.co/rimOPS/TESTModels/resolve/main/NELLv2_VAE.safetensors"
+    # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NELLv2_VAE.safetensors"
 )
 
 LORA_MODELS=(
@@ -52,8 +52,6 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1206518"
     # Areola size slider(goofy)
     "https://civitai.com/api/download/models/1284363"
-    # Areola size slider(Kojimbomber)
-    "https://civitai.com/api/download/models/1304712"
     # sagging breasts
     "https://civitai.com/api/download/models/927604"
     # Ugly Fat Man
@@ -90,8 +88,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1117075"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
-    # フェラ素振り
+    # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
     "https://civitai.com/api/download/models/1181541"
+    # フェラチオ後(After Fellatio/ Gokkun | LoRA)
+    "https://civitai.com/api/download/models/1334600"
     # ちんこビンタ
     "https://civitai.com/api/download/models/1221956"
     # チンポ目隠し
@@ -118,21 +118,18 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1226208"
     # nine face chibi
     "https://civitai.com/api/download/models/1078616"
-    # Roxanne
+    # NTR POV(cuck pov)
+    "https://civitai.com/api/download/models/1255291"
+    # キャラ
+    ## Roxanne
     "https://civitai.com/api/download/models/1055954"
-    # Ryza
+    ## Ryza
     "https://civitai.com/api/download/models/1098852"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
     # LCM-Lora
     # "https://civitai.com/api/download/models/424720"
-    # 穂月かえで
-    "https://civitai.com/api/download/models/244666"
-    # 犬山あおい
-    "https://huggingface.co/rimOPS/latestLora/resolve/main/Character/%E7%8A%AC%E5%B1%B1%E3%81%82%E3%81%8A%E3%81%84/yurucampInuyamaaoi_yurucampInuyamaaoiV1.safetensors"
-    # パイン
-    "https://huggingface.co/rimOPS/latestLora/resolve/main/Character/%E3%83%9C%E3%83%B3%E3%83%90%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%AB%EF%BC%8F%E3%83%91%E3%82%A4%E3%83%B3/pineBombergirl_v10.safetensors"
 )
 
 VAE_MODELS=(
@@ -161,8 +158,8 @@ CONTROLNET_MODELS=(
 )
 
 function base_config(){
-    cd "${WORKSPACE}/stable-diffusion-webui-forge/embeddings"
-    wget -q "https://huggingface.co/rimOPS/embeddings/resolve/main/EasyNegative.pt"
+    # cd "${WORKSPACE}/stable-diffusion-webui-forge/embeddings"
+    # wget -q "https://huggingface.co/rimOPS/embeddings/resolve/main/EasyNegative.pt"
 
     cd "${WORKSPACE}/stable-diffusion-webui-forge/"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/config.json"
