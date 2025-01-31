@@ -89,11 +89,11 @@ LORA_MODELS=(
     # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
     "https://civitai.com/api/download/models/1181541"
     # フェラチオ後(After Fellatio/ Gokkun | LoRA)
-    "https://civitai.com/api/download/models/1334600"
+    # "https://civitai.com/api/download/models/1334600"
     # ちんこビンタ
     "https://civitai.com/api/download/models/1221956"
     # チンポ目隠し
-    "https://civitai.com/api/download/models/1307328"
+    # "https://civitai.com/api/download/models/1307328"
     # スパイダー騎乗位(Lyco)
     "https://civitai.com/api/download/models/1211700"
     # Side Sex from Back
