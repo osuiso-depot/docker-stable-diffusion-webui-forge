@@ -48,8 +48,6 @@ LORA_MODELS=(
     # Illustrious
     # 明暗(Low Light, Dark, Chiaroscuro)
     "https://civitai.com/api/download/models/1221116"
-    # Nipple size slider(goofy)
-    "https://civitai.com/api/download/models/1206518"
     # Areola size slider(goofy)
     "https://civitai.com/api/download/models/1284363"
     # sagging breasts
@@ -125,6 +123,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1055954"
     ## Ryza
     "https://civitai.com/api/download/models/1098852"
+    ## 穂月かえで
+    "https://civitai.com/api/download/models/1166377"
+    ## hachimiya-meguru
+    "https://civitai.com/api/download/models/1065346"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
