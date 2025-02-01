@@ -46,6 +46,9 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
+    # Hyper-SD
+    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors"
+    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-12steps-CFG-lora.safetensors"
     # 明暗(Low Light, Dark, Chiaroscuro)
     "https://civitai.com/api/download/models/1221116"
     # Areola size slider(goofy)
