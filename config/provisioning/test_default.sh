@@ -46,9 +46,6 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
-    # Hyper-SD
-    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors"
-    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-12steps-CFG-lora.safetensors"
     # 明暗(Low Light, Dark, Chiaroscuro)
     "https://civitai.com/api/download/models/1221116"
     # Areola size slider(goofy)
@@ -59,8 +56,6 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1122234"
     # Glossy Skin
     "https://civitai.com/api/download/models/1218639"
-    # Sagging Breasts
-    "https://civitai.com/api/download/models/927604"
     # Euphoria(black serafuku)
     "https://civitai.com/api/download/models/1245821"
     # ハルチカ(Shimizu Minami High School Uniform)
@@ -85,40 +80,34 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1103791"
     # open towel
     "https://civitai.com/api/download/models/1154680"
-    # Breasts on glass
-    "https://civitai.com/api/download/models/1117075"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
     "https://civitai.com/api/download/models/1181541"
-    # フェラチオ後(After Fellatio/ Gokkun | LoRA)
-    # "https://civitai.com/api/download/models/1334600"
     # ちんこビンタ
-    "https://civitai.com/api/download/models/1221956"
-    # チンポ目隠し
-    # "https://civitai.com/api/download/models/1307328"
+    # "https://civitai.com/api/download/models/1221956"
     # スパイダー騎乗位(Lyco)
     "https://civitai.com/api/download/models/1211700"
-    # Side Sex from Back
+    # POV Spooning from Behind / Side Sex from Back
     "https://civitai.com/api/download/models/1055765"
     # 砧(きぬた) まんぐりSEX
-    "https://civitai.com/api/download/models/1183504"
+    # "https://civitai.com/api/download/models/1183504"
     # だいしゅきホールド
-    "https://civitai.com/api/download/models/1166885"
+    # "https://civitai.com/api/download/models/1166885"
     # 立ち鼎(立ち位＋対面)
-    "https://civitai.com/api/download/models/1241704"
+    # "https://civitai.com/api/download/models/1241704"
     # 背後抱きSEｘ(bell hammer backwards)
-    "https://civitai.com/api/download/models/1192978"
+    # "https://civitai.com/api/download/models/1192978"
     # missionary position 吊り橋(腰持ち上げ)
-    "https://civitai.com/api/download/models/1202648"
+    # "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
-    "https://civitai.com/api/download/models/1197206"
+    # "https://civitai.com/api/download/models/1197206"
     # jack-O
     "https://civitai.com/api/download/models/1302043"
     # 壁尻
-    "https://civitai.com/api/download/models/1226208"
+    # "https://civitai.com/api/download/models/1226208"
     # nine face chibi
-    "https://civitai.com/api/download/models/1078616"
+    # "https://civitai.com/api/download/models/1078616"
     # NTR POV(cuck pov)
     "https://civitai.com/api/download/models/1255291"
     # キャラ
@@ -127,9 +116,11 @@ LORA_MODELS=(
     ## Ryza
     "https://civitai.com/api/download/models/1098852"
     ## 穂月かえで
-    "https://civitai.com/api/download/models/1166377"
+    # "https://civitai.com/api/download/models/1166377"
     ## hachimiya-meguru
     "https://civitai.com/api/download/models/1065346"
+    ## ヴェルメイ
+    "https://civitai.com/api/download/models/1352696"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
