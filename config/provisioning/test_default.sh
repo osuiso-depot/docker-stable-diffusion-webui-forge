@@ -161,8 +161,6 @@ function base_config(){
     cd "${WORKSPACE}/stable-diffusion-webui-forge/"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/config.json"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/ui-config.json"
-    wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/styles.csv"
-    wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/styles_integrated.csv"
 }
 
 function extensions_config() {
@@ -201,6 +199,14 @@ function extensions_config() {
     if [ $? -ne 0 ]; then
         echo "Failed move lbwpresets.txt"
     fi
+
+    # styles.csv を目的のディレクトリに移動
+    mv "styles.csv" "${WORKSPACE}/stable-diffusion-webui-forge"
+    mv "styles_integrated.csv" "${WORKSPACE}/stable-diffusion-webui-forge"
+    if [ $? -ne 0 ]; then
+        echo "Failed move styles.csv"
+    fi
+
 
 }
 
