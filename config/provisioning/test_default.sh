@@ -36,6 +36,8 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
+    #CottonNoob
+    "https://civitai.com/api/download/models/1419841"
     "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v17.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NELLv2_VAE.safetensors"
@@ -117,7 +119,19 @@ LORA_MODELS=(
     ## hachimiya-meguru
     "https://civitai.com/api/download/models/1065346"
     ## ヴェルメイ
-    "https://civitai.com/api/download/models/1352696"
+    # "https://civitai.com/api/download/models/1352696"
+    # loratest
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/AWSF_const_LR0008_d16a4_TE8UE4_b2/AWSF_const_LR0008_d16a4_TE8UE4_b2.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/AWSF_const_LR0008_d16a4_TE8UE4_b2/AWSF_const_LR0008_d16a4_TE8UE4_b2-step00002000.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/AWSF_const_LR0008_d16a4_TE8UE4_b2/AWSF_const_LR0008_d16a4_TE8UE4_b2-step00001500.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/AWSF_cosAN_LR0008_d16a4_TE8UE4_b2/AWSF_cosAN_LR0008_d16a4_TE8UE4_b2.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/AWSF_cosAN_LR0008_d16a4_TE8UE4_b2/AWSF_cosAN_LR0008_d16a4_TE8UE4_b2-step00002000.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/AWSF_cosAN_LR0008_d16a4_TE8UE4_b2/AWSF_cosAN_LR0008_d16a4_TE8UE4_b2-step00001500.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/LionSDXLbatch2_trigger/LionSDXLbatch2_trigger.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00004000.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00003500.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00003000.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00002500.safetensors"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
