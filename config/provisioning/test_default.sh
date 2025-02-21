@@ -37,7 +37,7 @@ EXTENSIONS=(
 
 CHECKPOINT_MODELS=(
     #CottonNoob
-    "https://civitai.com/api/download/models/1419841"
+    # "https://civitai.com/api/download/models/1419841"
     "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v17.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NELLv2_VAE.safetensors"
