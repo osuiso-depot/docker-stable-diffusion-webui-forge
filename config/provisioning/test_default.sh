@@ -124,6 +124,16 @@ LORA_MODELS=(
     "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/LionSDXLbatch2_trigger/LionSDXLbatch2_trigger.safetensors"
     "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00003000.safetensors"
     "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00002500.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221/Lion250221-000006.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221/Lion250221-000007.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221/Lion250221-000008.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221/Lion250221-000009.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221/Lion250221.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221_d6a1_kp/Lion250221_d6a1_kp-000006.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221_d6a1_kp/Lion250221_d6a1_kp-000007.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221_d6a1_kp/Lion250221_d6a1_kp-000008.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221_d6a1_kp/Lion250221_d6a1_kp-000009.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250221_d6a1_kp/Lion250221_d6a1_kp.safetensors"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
