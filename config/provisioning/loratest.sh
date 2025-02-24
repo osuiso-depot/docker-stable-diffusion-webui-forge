@@ -58,6 +58,18 @@ LORA_MODELS=(
     # loratest
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_v1.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_vxp_v1.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_Locon_kp/Lion250222_d32a12_26667e-8_b2_Locon_kp-000005.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_Locon_kp/Lion250222_d32a12_26667e-8_b2_Locon_kp-000006.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_Locon_kp/Lion250222_d32a12_26667e-8_b2_Locon_kp-000007.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_Locon_kp/Lion250222_d32a12_26667e-8_b2_Locon_kp-000008.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_Locon_kp/Lion250222_d32a12_26667e-8_b2_Locon_kp-000009.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_Locon_kp/Lion250222_d32a12_26667e-8_b2_Locon_kp.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp-000005.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp-000006.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp-000007.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp-000008.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp-000009.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp/Lion250222_d32a12_26667e-8_b2_LoraPlus_kp.safetensors"
 )
 
 VAE_MODELS=(
