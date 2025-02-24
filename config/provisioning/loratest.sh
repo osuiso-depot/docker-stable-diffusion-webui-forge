@@ -56,19 +56,8 @@ LORA_MODELS=(
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
     # loratest
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/LionSDXLbatch2_trigger/LionSDXLbatch2_trigger.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00003000.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00002500.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp_VXP/Lion250222_d32a12_26667e-8_b2_kp_VXP-000006.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp_VXP/Lion250222_d32a12_26667e-8_b2_kp_VXP-000007.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp_VXP/Lion250222_d32a12_26667e-8_b2_kp_VXP-000008.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp_VXP/Lion250222_d32a12_26667e-8_b2_kp_VXP-000009.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp_VXP/Lion250222_d32a12_26667e-8_b2_kp_VXP.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp/Lion250222_d32a12_26667e-8_b2_kp-000006.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp/Lion250222_d32a12_26667e-8_b2_kp-000007.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp/Lion250222_d32a12_26667e-8_b2_kp-000008.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp/Lion250222_d32a12_26667e-8_b2_kp-000009.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/Lion250222_d32a12_26667e-8_b2_kp/Lion250222_d32a12_26667e-8_b2_kp.safetensors"
+    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_v1.safetensors"
+    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_vxp_v1.safetensors"
 )
 
 VAE_MODELS=(
