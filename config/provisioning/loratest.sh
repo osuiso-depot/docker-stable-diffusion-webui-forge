@@ -45,6 +45,14 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
+    # Ohogao SDXL
+    "https://civitai.com/api/download/models/1192192"
+    # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
+    "https://civitai.com/api/download/models/1181541"
+    # 逆バニー
+    "https://civitai.com/api/download/models/995354"
+    # セントルイス衣装(セレブoutfit)
+    "https://civitai.com/api/download/models/1110753"
     ## Roxanne
     "https://civitai.com/api/download/models/1055954"
     ## Ryza
@@ -53,12 +61,18 @@ LORA_MODELS=(
     # "https://civitai.com/api/download/models/1166377"
     ## hachimiya-meguru
     "https://civitai.com/api/download/models/1065346"
+    ## イドラ・アーヴォルン
+    "https://civitai.com/api/download/models/1448213"
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
     # loratest
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_v1.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_vxp_v1.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1.safetensors"
+    # SketchLine Chaos
+    "https://civitai.com/api/download/models/1439782"
+    # Sketchy Valentine
+    "https://civitai.com/api/download/models/1362656"
 )
 
 VAE_MODELS=(
