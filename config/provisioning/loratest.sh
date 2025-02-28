@@ -69,10 +69,6 @@ LORA_MODELS=(
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_v1.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_vxp_v1.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1.safetensors"
-    # SketchLine Chaos
-    "https://civitai.com/api/download/models/1439782"
-    # Sketchy Valentine
-    "https://civitai.com/api/download/models/1362656"
 )
 
 VAE_MODELS=(

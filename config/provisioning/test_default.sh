@@ -120,14 +120,8 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1065346"
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
-    # loratest
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/LionSDXLbatch2_trigger/LionSDXLbatch2_trigger.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00003000.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/last_d8a4_v3_0003_bat10_cosine_with_artistname/last_d8a4_v3_0003_bat10-step00002500.safetensors"
-    # SketchLine Chaos
-    "https://civitai.com/api/download/models/1439782?type=Model&format=SafeTensor"
-    # Sketchy Valentine
-    "https://civitai.com/api/download/models/1362656?type=Model&format=SafeTensor"
+    # 塗りLora
+    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1.safetensors"
     # SD1.5
     # derum用
     # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
