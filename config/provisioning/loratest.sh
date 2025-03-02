@@ -69,6 +69,27 @@ LORA_MODELS=(
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_v1.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_vxp_v1.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1.safetensors"
+    # v2
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2/gafutncsh_ai_v2-000004.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2/gafutncsh_ai_v2-000005.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2/gafutncsh_ai_v2-000006.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2/gafutncsh_ai_v2-000007.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2/gafutncsh_ai_v2-000008.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2/gafutncsh_ai_v2.safetensors"
+    # v2a
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2a/gafutncsh_ai_v2a-000004.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2a/gafutncsh_ai_v2a-000005.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2a/gafutncsh_ai_v2a-000006.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2a/gafutncsh_ai_v2a-000007.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2a/gafutncsh_ai_v2a-000008.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v2a/gafutncsh_ai_v2a.safetensors"
+    # mbojisan v1
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/mbojisan_v1/mbojisan_v1-000004.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/mbojisan_v1/mbojisan_v1-000005.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/mbojisan_v1/mbojisan_v1-000006.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/mbojisan_v1/mbojisan_v1-000007.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/mbojisan_v1/mbojisan_v1-000008.safetensors"
+    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/mbojisan_v1/mbojisan_v1.safetensors"
 )
 
 VAE_MODELS=(
