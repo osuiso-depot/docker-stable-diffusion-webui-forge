@@ -72,16 +72,7 @@ LORA_MODELS=(
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
     # loratest
-    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_v1.safetensors"
-    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_vxp_v1.safetensors"
-    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1.safetensors"
-    # v2b
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v1b/gafutncsh_ai_v1b-000004.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v1b/gafutncsh_ai_v1b-000005.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v1b/gafutncsh_ai_v1b-000006.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v1b/gafutncsh_ai_v1b-000007.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v1b/gafutncsh_ai_v1b-000008.safetensors"
-    "https://huggingface.co/rimOPS/tenchi_testlora/resolve/main/gafutncsh_ai_v1b/gafutncsh_ai_v1b.safetensors"
+    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
 )
 
 VAE_MODELS=(
