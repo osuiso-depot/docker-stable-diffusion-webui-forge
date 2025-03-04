@@ -45,6 +45,8 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     # Illustrious
+    # Areola size slider(goofy)
+    "https://civitai.com/api/download/models/1284363"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
@@ -63,6 +65,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1065346"
     ## イドラ・アーヴォルン
     "https://civitai.com/api/download/models/1448213"
+    ## めぐる
+    "https://civitai.com/api/download/models/1065346"
+    ## まの
+    "https://civitai.com/api/download/models/1053983"
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
     # loratest
