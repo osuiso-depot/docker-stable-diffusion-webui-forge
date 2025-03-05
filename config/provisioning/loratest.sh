@@ -61,8 +61,6 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1098852"
     ## 穂月かえで
     # "https://civitai.com/api/download/models/1166377"
-    ## hachimiya-meguru
-    "https://civitai.com/api/download/models/1065346"
     ## イドラ・アーヴォルン
     "https://civitai.com/api/download/models/1448213"
     ## めぐる
@@ -73,6 +71,14 @@ LORA_MODELS=(
     # "https://civitai.com/api/download/models/1352696"
     # loratest
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
+    # mbojisan
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000004.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000005.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000006.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000007.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000008.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000009.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2.safetensors"
 )
 
 VAE_MODELS=(
