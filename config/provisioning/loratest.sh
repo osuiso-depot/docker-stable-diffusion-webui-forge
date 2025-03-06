@@ -72,13 +72,18 @@ LORA_MODELS=(
     # loratest
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
     # mbojisan
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000004.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000005.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000006.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000007.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000008.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2-000009.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v2/mbojisan_v2.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AW/mbojisan_v3_AW-000004.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AW/mbojisan_v3_AW-000005.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AW/mbojisan_v3_AW-000006.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AW/mbojisan_v3_AW-000007.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AW/mbojisan_v3_AW-000008.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AW/mbojisan_v3_AW.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AWSF/mbojisan_v3_AWSF-000004.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AWSF/mbojisan_v3_AWSF-000005.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AWSF/mbojisan_v3_AWSF-000006.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AWSF/mbojisan_v3_AWSF-000007.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AWSF/mbojisan_v3_AWSF-000008.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v3_AWSF/mbojisan_v3_AWSF.safetensors"
 )
 
 VAE_MODELS=(

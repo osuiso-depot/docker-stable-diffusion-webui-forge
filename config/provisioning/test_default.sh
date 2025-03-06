@@ -122,11 +122,6 @@ LORA_MODELS=(
     # "https://civitai.com/api/download/models/1352696"
     # 塗りLora
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1.safetensors"
-    # SD1.5
-    # derum用
-    # "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
-    # LCM-Lora
-    # "https://civitai.com/api/download/models/424720"
 )
 
 VAE_MODELS=(
@@ -155,9 +150,6 @@ CONTROLNET_MODELS=(
 )
 
 function base_config(){
-    # cd "${WORKSPACE}/stable-diffusion-webui-forge/embeddings"
-    # wget -q "https://huggingface.co/rimOPS/embeddings/resolve/main/EasyNegative.pt"
-
     cd "${WORKSPACE}/stable-diffusion-webui-forge/"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/config.json"
     wget -q "https://raw.githubusercontent.com/osuiso-depot/docker-stable-diffusion-webui-forge/refs/heads/main/config/provisioning/ui-config.json"
