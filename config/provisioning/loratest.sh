@@ -60,13 +60,13 @@ LORA_MODELS=(
     ## Ryza
     "https://civitai.com/api/download/models/1098852"
     ## 穂月かえで
-    # "https://civitai.com/api/download/models/1166377"
+    "https://civitai.com/api/download/models/1166377"
     ## イドラ・アーヴォルン
-    "https://civitai.com/api/download/models/1448213"
+    # "https://civitai.com/api/download/models/1448213"
     ## めぐる
-    "https://civitai.com/api/download/models/1065346"
+    # "https://civitai.com/api/download/models/1065346"
     ## まの
-    "https://civitai.com/api/download/models/1053983"
+    # "https://civitai.com/api/download/models/1053983"
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
     # loratest
