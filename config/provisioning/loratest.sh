@@ -72,6 +72,24 @@ LORA_MODELS=(
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
     # mbojisan
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/mbojisan_v3.safetensors"
+    # AW
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000006.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000007.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000008.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000090.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000010.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000011.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000012.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000013.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000014.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW.safetensors"
+    # Lion
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000004.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000005.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000006.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000007.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000008.safetensors"
+    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion.safetensors"
 )
 
 VAE_MODELS=(
