@@ -36,8 +36,8 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
-    # "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
-    "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v17.safetensors"
+    "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
+    # "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v17.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NELLv2_VAE.safetensors"
 )
@@ -50,6 +50,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
     "https://civitai.com/api/download/models/1181541"
+    # Silhouette Sex
+    "https://civitai.com/api/download/models/1500681"
+    # The after show (Illustrious)
+    "https://civitai.com/api/download/models/1258330"
     # 逆バニー
     "https://civitai.com/api/download/models/995354"
     # セントルイス衣装(セレブoutfit)
@@ -65,31 +69,32 @@ LORA_MODELS=(
     ## めぐる
     # "https://civitai.com/api/download/models/1065346"
     ## まの
-    # "https://civitai.com/api/download/models/1053983"
+    "https://civitai.com/api/download/models/1053983"
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
     # loratest
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
     # mbojisan
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/mbojisan_v3.safetensors"
+    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/mbojisan_v4.safetensors"
     # AW
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000006.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000007.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000008.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000090.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000010.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000011.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000012.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000013.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000014.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000006.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000007.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000008.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000090.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000010.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000011.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000012.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000013.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW-000014.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_AW/mbojisan_v4_AW.safetensors"
     # Lion
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000004.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000005.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000006.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000007.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000008.safetensors"
-    "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000004.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000005.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000006.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000007.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion-000008.safetensors"
+    # "https://huggingface.co/rimOPS/testlora_mbmens/resolve/main/mbojisan_v4_Lion/mbojisan_v4_Lion.safetensors"
 )
 
 VAE_MODELS=(
