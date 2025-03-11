@@ -89,7 +89,7 @@
     "bilingual_localization_file": "None",
     "bilingual_localization_order": "Translation First",
     "bilingual_localization_dirs": "{\"ja_JP\": \"extensions/stable-diffusion-webui-localization-ja_JP/localizations/ja_JP.json\", \"ks_JP\": \"extensions/stable-diffusion-webui-localization-ja_JP/localizations/ks_JP.json\"}",
-    "sd_model_checkpoint": "vxpILXL_v17.safetensors",
+    "sd_model_checkpoint": "vxpILXL_v12.safetensors",
     "forge_async_loading": "Queue",
     "forge_inference_memory": 1024,
     "forge_pin_shared_memory": "CPU",
