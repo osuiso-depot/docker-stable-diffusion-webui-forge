@@ -41,6 +41,7 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
+    "https://huggingface.co/rimOPS/latestLora/resolve/main/Concept/%E7%94%BB%E9%A2%A8%EF%BC%8F194-flat/flat.safetensors"
 )
 
 VAE_MODELS=(
@@ -66,7 +67,7 @@ CONTROLNET_MODELS=(
 )
 
 function base_config(){
-    # cd "${WORKSPACE}/stable-diffusion-webui-forge/embeddings"
+    cd "${WORKSPACE}/stable-diffusion-webui-forge/embeddings"
     wget -q "https://huggingface.co/rimOPS/embeddings/resolve/main/EasyNegative.pt"
 
     cd "${WORKSPACE}/stable-diffusion-webui-forge/"
