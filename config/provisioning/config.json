@@ -366,7 +366,7 @@
     "xl_t2i_width": 896,
     "xl_t2i_height": 1152,
     "xl_t2i_cfg": 3.2,
-    "xl_t2i_hr_cfg": 3.2,
+    "xl_t2i_hr_cfg": 2.5,
     "xl_i2i_width": 1024,
     "xl_i2i_height": 1024,
     "xl_i2i_cfg": 3.2,
