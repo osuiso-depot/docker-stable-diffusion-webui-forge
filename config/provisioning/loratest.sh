@@ -59,9 +59,9 @@ LORA_MODELS=(
     # セントルイス衣装(セレブoutfit)
     "https://civitai.com/api/download/models/1110753"
     ## Roxanne
-    "https://civitai.com/api/download/models/1055954"
+    # "https://civitai.com/api/download/models/1055954"
     ## Ryza
-    "https://civitai.com/api/download/models/1098852"
+    # "https://civitai.com/api/download/models/1098852"
     ## 穂月かえで
     "https://civitai.com/api/download/models/1166377"
     ## イドラ・アーヴォルン
@@ -69,13 +69,22 @@ LORA_MODELS=(
     ## めぐる
     # "https://civitai.com/api/download/models/1065346"
     ## まの
-    "https://civitai.com/api/download/models/1053983"
+    # "https://civitai.com/api/download/models/1053983"
     ## ヴェルメイ
     # "https://civitai.com/api/download/models/1352696"
+    ## うてな
+    "https://civitai.com/api/download/models/1019552"
+    ### ワンピース
+    "https://civitai.com/api/download/models/1527159"
+    ### 貧乳吸い
+    "https://civitai.com/api/download/models/1333587"
+    ## のあ先輩
+    "https://civitai.com/api/download/models/1021194"
+    ### フリルビキニ
+    "https://civitai.com/api/download/models/1464171"
     # loratest
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
     # mbojisan
-    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/mbojisan_v3.safetensors"
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/mbojisan_v4.safetensors"
 )
 
