@@ -63,7 +63,7 @@ LORA_MODELS=(
     ## Ryza
     # "https://civitai.com/api/download/models/1098852"
     ## 穂月かえで
-    "https://civitai.com/api/download/models/1166377"
+    # "https://civitai.com/api/download/models/1166377"
     ## イドラ・アーヴォルン
     # "https://civitai.com/api/download/models/1448213"
     ## めぐる
