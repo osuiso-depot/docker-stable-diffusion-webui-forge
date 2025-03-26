@@ -51,7 +51,7 @@ LORA_MODELS=(
     # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
     "https://civitai.com/api/download/models/1181541"
     # Silhouette Sex
-    "https://civitai.com/api/download/models/1500681"
+    # "https://civitai.com/api/download/models/1500681"
     # The after show (Illustrious)
     "https://civitai.com/api/download/models/1258330"
     # 逆バニー
