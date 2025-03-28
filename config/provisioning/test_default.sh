@@ -7,7 +7,7 @@
 ### Edit the following arrays to suit your workflow - values must be quoted and separated by newlines or spaces.
 ### If you specify gated models you'll need to set environment variables HF_TOKEN and/orf CIVITAI_TOKEN
 
-DISK_GB_REQUIRED=24
+DISK_GB_REQUIRED=15
 
 APT_PACKAGES=(
     #"package-1"
@@ -25,7 +25,7 @@ EXTENSIONS=(
     "https://github.com/adieyal/sd-dynamic-prompts"
     # "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
-    "https://github.com/Haoming02/sd-forge-couple"
+    # "https://github.com/Haoming02/sd-forge-couple"
     "https://github.com/Katsuyuki-Karasawa/stable-diffusion-webui-localization-ja_JP"
     "https://github.com/altoiddealer/--sd-webui-ar-plusplus"
     "https://github.com/hako-mikan/sd-webui-lora-block-weight"
@@ -36,59 +36,36 @@ EXTENSIONS=(
 )
 
 CHECKPOINT_MODELS=(
-    #CottonNoob
-    # "https://civitai.com/api/download/models/1419841"
-    "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v17.safetensors"
+    "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
+    # "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v17.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NDDN3v3_VAE.safetensors"
     # "https://huggingface.co/rimOPS/TESTModels/resolve/main/NELLv2_VAE.safetensors"
 )
 
 LORA_MODELS=(
     # Illustrious
-    # 明暗(Low Light, Dark, Chiaroscuro)
-    "https://civitai.com/api/download/models/1221116"
     # Areola size slider(goofy)
     "https://civitai.com/api/download/models/1284363"
     # sagging breasts
-    "https://civitai.com/api/download/models/927604"
-    # Ugly Fat Man
-    "https://civitai.com/api/download/models/1122234"
+    # "https://civitai.com/api/download/models/927604"
     # Glossy Skin
-    "https://civitai.com/api/download/models/1218639"
+    # "https://civitai.com/api/download/models/1218639"
     # Euphoria(black serafuku)
-    "https://civitai.com/api/download/models/1245821"
+    # "https://civitai.com/api/download/models/1245821"
     # ハルチカ(Shimizu Minami High School Uniform)
-    "https://civitai.com/api/download/models/1084497"
+    # "https://civitai.com/api/download/models/1084497"
     # 体操服
     # "https://civitai.com/api/download/models/1179697"
     # 逆バニー
     "https://civitai.com/api/download/models/995354"
     # スーツ
-    "https://civitai.com/api/download/models/1073195"
+    # "https://civitai.com/api/download/models/1073195"
     # セントルイス衣装(セレブoutfit)
     "https://civitai.com/api/download/models/1110753"
-    # バレーボールユニフォーム
-    # "https://civitai.com/api/download/models/1109993"
-    # Zipper Pull(巨乳に引っかかる)
-    # "https://civitai.com/api/download/models/1230125"
-    # Retro Gym Shorts
-    # "https://civitai.com/api/download/models/1166221"
-    # スク水
-    # "https://civitai.com/api/download/models/1191090"
-    # 腋見せ(Spread Armpit)
-    "https://civitai.com/api/download/models/1103791"
-    # open towel
-    "https://civitai.com/api/download/models/1154680"
     # Ohogao SDXL
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
     "https://civitai.com/api/download/models/1181541"
-    # ちんこビンタ
-    # "https://civitai.com/api/download/models/1221956"
-    # スパイダー騎乗位(Lyco)
-    "https://civitai.com/api/download/models/1211700"
-    # POV Spooning from Behind / Side Sex from Back
-    "https://civitai.com/api/download/models/1055765"
     # 砧(きぬた) まんぐりSEX
     # "https://civitai.com/api/download/models/1183504"
     # だいしゅきホールド
@@ -101,27 +78,30 @@ LORA_MODELS=(
     # "https://civitai.com/api/download/models/1202648"
     # 御所車 woman on top(side,定点風)
     # "https://civitai.com/api/download/models/1197206"
-    # jack-O
-    "https://civitai.com/api/download/models/1302043"
     # 壁尻
     # "https://civitai.com/api/download/models/1226208"
     # nine face chibi
     # "https://civitai.com/api/download/models/1078616"
     # NTR POV(cuck pov)
     "https://civitai.com/api/download/models/1255291"
-    # キャラ
-    ## Roxanne
-    "https://civitai.com/api/download/models/1055954"
-    ## Ryza
-    "https://civitai.com/api/download/models/1098852"
-    ## 穂月かえで
-    # "https://civitai.com/api/download/models/1166377"
-    ## hachimiya-meguru
-    "https://civitai.com/api/download/models/1065346"
-    ## ヴェルメイ
-    # "https://civitai.com/api/download/models/1352696"
-    # 塗りLora
-    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1.safetensors"
+    ## リナベルローズ
+    "https://civitai.com/api/download/models/1068617"
+    ### ヒョウ柄ビキニ
+    "https://civitai.com/api/download/models/1037659"
+    ## 姫ヶ崎 櫻子
+    "https://civitai.com/api/download/models/1037659"
+    ## うてな
+    # "https://civitai.com/api/download/models/1019552"
+    ### ワンピース
+    # "https://civitai.com/api/download/models/1527159"
+    ### 貧乳吸い
+    # "https://civitai.com/api/download/models/1333587"
+    ## のあ先輩
+    "https://civitai.com/api/download/models/1021194"
+    ### フリルビキニ
+    "https://civitai.com/api/download/models/1464171"
+    # loratest
+    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
 )
 
 VAE_MODELS=(
@@ -140,7 +120,7 @@ ESRGAN_MODELS=(
 
 CONTROLNET_MODELS=(
     # SDXL
-    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_canny.safetensors"
+    # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_canny.safetensors"
     # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_openpose_anime_v2.safetensors"
     # "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/kohya_controllllite_xl_depth_anime.safetensors"
     # sd15

@@ -85,7 +85,7 @@ LORA_MODELS=(
     # loratest
     "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
     # mbojisan
-    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/mbojisan_v4.safetensors"
+    # "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/mbojisan_v4.safetensors"
 )
 
 VAE_MODELS=(
