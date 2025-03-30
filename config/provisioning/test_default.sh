@@ -88,8 +88,12 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1068617"
     ### ヒョウ柄ビキニ
     "https://civitai.com/api/download/models/1037659"
+    ### ピチピチボディスーツ
+    "https://civitai.com/api/download/models/1200630"
     ## 姫ヶ崎 櫻子
     "https://civitai.com/api/download/models/1037659"
+    ### モントゴメリー腺
+    "https://civitai.com/api/download/models/1182913"
     ## うてな
     # "https://civitai.com/api/download/models/1019552"
     ### ワンピース
