@@ -114,16 +114,16 @@ function provisioning_start() {
     provisioning_get_files \
         "${FORGE_DIR}/models/Stable-diffusion" \
         "${CHECKPOINT_MODELS[@]}"
-    provisioning_get_models \
+    provisioning_get_files \
         "${FORGE_DIR}/models/Lora" \
         "${LORA_MODELS[@]}"
-    provisioning_get_models \
+    provisioning_get_files \
         "${FORGE_DIR}/models/ControlNet" \
         "${CONTROLNET_MODELS[@]}"
-    provisioning_get_models \
+    provisioning_get_files \
         "${FORGE_DIR}/models/VAE" \
         "${VAE_MODELS[@]}"
-    provisioning_get_models \
+    provisioning_get_files \
         "${FORGE_DIR}/models/ESRGAN" \
         "${ESRGAN_MODELS[@]}"
 
