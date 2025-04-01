@@ -38,6 +38,69 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
+    # Illustrious
+    # Areola size slider(goofy)
+    "https://civitai.com/api/download/models/1284363"
+    # sagging breasts
+    # "https://civitai.com/api/download/models/927604"
+    # Glossy Skin
+    # "https://civitai.com/api/download/models/1218639"
+    # Euphoria(black serafuku)
+    # "https://civitai.com/api/download/models/1245821"
+    # ハルチカ(Shimizu Minami High School Uniform)
+    # "https://civitai.com/api/download/models/1084497"
+    # 体操服
+    # "https://civitai.com/api/download/models/1179697"
+    # 逆バニー
+    "https://civitai.com/api/download/models/995354"
+    # スーツ
+    # "https://civitai.com/api/download/models/1073195"
+    # セントルイス衣装(セレブoutfit)
+    "https://civitai.com/api/download/models/1110753"
+    # Ohogao SDXL
+    "https://civitai.com/api/download/models/1192192"
+    # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
+    "https://civitai.com/api/download/models/1181541"
+    # 砧(きぬた) まんぐりSEX
+    # "https://civitai.com/api/download/models/1183504"
+    # だいしゅきホールド
+    # "https://civitai.com/api/download/models/1166885"
+    # 立ち鼎(立ち位＋対面)
+    # "https://civitai.com/api/download/models/1241704"
+    # 背後抱きSEｘ(bell hammer backwards)
+    # "https://civitai.com/api/download/models/1192978"
+    # missionary position 吊り橋(腰持ち上げ)
+    # "https://civitai.com/api/download/models/1202648"
+    # 御所車 woman on top(side,定点風)
+    # "https://civitai.com/api/download/models/1197206"
+    # 壁尻
+    # "https://civitai.com/api/download/models/1226208"
+    # nine face chibi
+    # "https://civitai.com/api/download/models/1078616"
+    # NTR POV(cuck pov)
+    "https://civitai.com/api/download/models/1255291"
+    ## リナベルローズ
+    "https://civitai.com/api/download/models/1068617"
+    ### ヒョウ柄ビキニ
+    "https://civitai.com/api/download/models/1037659"
+    ### ピチピチボディスーツ
+    "https://civitai.com/api/download/models/1200630"
+    ## 姫ヶ崎 櫻子
+    "https://civitai.com/api/download/models/1037659"
+    ### モントゴメリー腺
+    "https://civitai.com/api/download/models/1182913"
+    ## うてな
+    # "https://civitai.com/api/download/models/1019552"
+    ### ワンピース
+    # "https://civitai.com/api/download/models/1527159"
+    ### 貧乳吸い
+    # "https://civitai.com/api/download/models/1333587"
+    ## のあ先輩
+    "https://civitai.com/api/download/models/1021194"
+    ### フリルビキニ
+    "https://civitai.com/api/download/models/1464171"
+    # loratest
+    "https://huggingface.co/rimOPS/IllustriousBased_Lora_own/resolve/main/gafutncsh_ai_v1b.safetensors"
 )
 
 VAE_MODELS=(
