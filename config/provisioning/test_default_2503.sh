@@ -27,11 +27,13 @@ EXTENSIONS=(
     "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
     "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete"
     "https://github.com/Bing-su/adetailer"
+    "https://github.com/Haoming02/sd-forge-negpip"
     # "https://github.com/Zyin055/Config-Presets"
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
+    # "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/vxpILXL_v12.safetensors"
+    "https://huggingface.co/rimOPS/IllustriousBased/resolve/main/waiNSFWIllustrious_v140.safetensors"
 )
 
 UNET_MODELS=(
@@ -43,8 +45,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1284363"
     # sagging breasts
     # "https://civitai.com/api/download/models/927604"
-    # Glossy Skin
-    # "https://civitai.com/api/download/models/1218639"
+    # Glossy Skin V3
+    "https://civitai.com/api/download/models/1218639"
+    # Glossy Skin V4
+    "https://civitai.com/api/download/models/1467892"
     # Euphoria(black serafuku)
     # "https://civitai.com/api/download/models/1245821"
     # ハルチカ(Shimizu Minami High School Uniform)
@@ -61,6 +65,12 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1192192"
     # フェラ素振り((CONCEPT) Fellatio gesture with finger circle / フェラ素振り(指で輪っか) (Illustrious))
     "https://civitai.com/api/download/models/1181541"
+    # All Fours From Below
+    "https://civitai.com/api/download/models/1495435"
+    # Silhouette Sex
+    "https://civitai.com/api/download/models/1500681"
+    # View From Below Doggystyle
+    "https://civitai.com/api/download/models/1362131"
     # 砧(きぬた) まんぐりSEX
     # "https://civitai.com/api/download/models/1183504"
     # だいしゅきホールド
@@ -80,15 +90,15 @@ LORA_MODELS=(
     # NTR POV(cuck pov)
     "https://civitai.com/api/download/models/1255291"
     ## リナベルローズ
-    "https://civitai.com/api/download/models/1068617"
+    # "https://civitai.com/api/download/models/1068617"
     ### ヒョウ柄ビキニ
-    "https://civitai.com/api/download/models/1037659"
+    # "https://civitai.com/api/download/models/1037659"
     ### ピチピチボディスーツ
-    "https://civitai.com/api/download/models/1200630"
+    # "https://civitai.com/api/download/models/1200630"
     ## 姫ヶ崎 櫻子
-    "https://civitai.com/api/download/models/1037659"
+    # "https://civitai.com/api/download/models/1037659"
     ### モントゴメリー腺
-    "https://civitai.com/api/download/models/1182913"
+    # "https://civitai.com/api/download/models/1182913"
     ## うてな
     # "https://civitai.com/api/download/models/1019552"
     ### ワンピース
@@ -96,7 +106,7 @@ LORA_MODELS=(
     ### 貧乳吸い
     # "https://civitai.com/api/download/models/1333587"
     ## のあ先輩
-    "https://civitai.com/api/download/models/1021194"
+    # "https://civitai.com/api/download/models/1021194"
     ### フリルビキニ
     "https://civitai.com/api/download/models/1464171"
     # loratest
